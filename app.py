@@ -1,114 +1,141 @@
-print("Hola Mundo")
+# print("Hola Mundo")
 
-'''
-Comentarios en bloque
-Este es un ejemplo de los tipos de comentarios que posee Python.
-asdasdasdas
-'''
-# Comentario de una sola linea
+# '''
+# Comentarios en bloque
+# Este es un ejemplo de los tipos de comentarios que posee Python.
+# asdasdasdas
+# '''
+# # Comentario de una sola linea
 
-# Tipos de datos en PYTHON
+# # Tipos de datos en PYTHON
 
-cadena = "Hola Mundo"  # Cadena de caracteres
+# cadena = "Hola Mundo"  # Cadena de caracteres
 
-entero = 20  # Numero entero
+# entero = 20  # Numero entero
 
-flotante = 20.5  # Numero flotante
+# flotante = 20.5  # Numero flotante
 
-booleano = True  # Booleano (True o False)
+# booleano = True  # Booleano (True o False)
 
-snake_case = "Esto es una variable con snake case"  # Snake case
-
-
-una_variable_con_un_nombre_largo = "Esto es una variable con snake case"  # Snake case
-
-print(una_variable_con_un_nombre_largo)
-
-print(3+5)
+# snake_case = "Esto es una variable con snake case"  # Snake case
 
 
-def nombre_funcion():
-    return "Hola Mundo"
+# una_variable_con_un_nombre_largo = "Esto es una variable con snake case"  # Snake case
+
+# print(una_variable_con_un_nombre_largo)
+
+# print(3+5)
 
 
-print(nombre_funcion())
+# def nombre_funcion():
+#     return "Hola Mundo"
 
 
-#Tipos de operadores en Python
-# De asignacion
-# Matematicos
-# Logicos
-# Relacionales
-
-# MATEMATICOS
-
-print(3+5) # Suma
-print(3-5) # Resta
-print(3*5) # Multiplicacion
-print(3/5) # Division
-print(3%5) # Modulo
-print(3**5) # Exponente
-print(3//5) # Division entera
-
-# ASIGNACION
-
-x = 3 # Asignacion
-print(x)
-x += 3 # x = x + 3
-print(x) 
-x -= 3 # x = x - 3
-print(x)
-
-# Logicos (AND, OR, NOT) 
-print(True and True) # True
-print(True and False) # False
-
-print (True or False) # True
-
-print(not True) # False
-
-# Relacionales
-
-print(3 == 5) # False
-print(3 != 5) # True
-print(3 > 5) # False
-print(3 < 5) # True
-print(3 >= 5) # False
-print(3 <= 5) # True
-
-# operadores bit a bit
-
-print(3 & 5) # 011 & 101 = 001
-print(3 | 5) # 011 | 101 = 111
+# print(nombre_funcion())
 
 
-# Malas practicas NO SE PUEDEN USAR
-'''
-mi variable ? = 3 # No se puede usar espacios en las variables
+# #Tipos de operadores en Python
+# # De asignacion
+# # Matematicos
+# # Logicos
+# # Relacionales
 
-2pesos = 0
+# # MATEMATICOS
 
-21%pesos = 0
+# print(3+5) # Suma
+# print(3-5) # Resta
+# print(3*5) # Multiplicacion
+# print(3/5) # Division
+# print(3%5) # Modulo
+# print(3**5) # Exponente
+# print(3//5) # Division entera
 
-$pesos = 0
-'''
+# # ASIGNACION
 
-mi_nombre = "Juan"
+# x = 3 # Asignacion
+# print(x)
+# x += 3 # x = x + 3
+# print(x) 
+# x -= 3 # x = x - 3
+# print(x)
 
-print("mi es nombre: " + mi_nombre)
+# # Logicos (AND, OR, NOT) 
+# print(True and True) # True
+# print(True and False) # False
 
-a = 10
-b = 2
+# print (True or False) # True
+
+# print(not True) # False
+
+# # Relacionales
+
+# print(3 == 5) # False
+# print(3 != 5) # True
+# print(3 > 5) # False
+# print(3 < 5) # True
+# print(3 >= 5) # False
+# print(3 <= 5) # True
+
+# # operadores bit a bit
+
+# print(3 & 5) # 011 & 101 = 001
+# print(3 | 5) # 011 | 101 = 111
 
 
-print("la suma de a + b es: ", str(a+b))
+# # Malas practicas NO SE PUEDEN USAR
+# '''
+# mi variable ? = 3 # No se puede usar espacios en las variables
+
+# 2pesos = 0
+
+# 21%pesos = 0
+
+# $pesos = 0
+# '''
+
+# mi_nombre = "Juan"
+
+# print("mi es nombre: " + mi_nombre)
+
+# a = 10
+# b = 2
 
 
-entrada = input("Ingrese su nombre: ")
+# print("la suma de a + b es: ", str(a+b))
 
-print("Hola " + entrada)
 
-numero1 = input("Ingrese un numero: ")
-numero2 = input("Ingrese otro numero: ")
+# #entrada = input("Ingrese su nombre: ")
 
-print("La suma de los numeros es: ", int(numero1) + int(numero2))
+# #print("Hola " + entrada)
+
+# #numero1 = input("Ingrese un numero: ")
+# #numero2 = input("Ingrese otro numero: ")
+
+# # print("La suma de los numeros es: ", int(numero1) + int(numero2))
+
+# Tipos de datos en Python
+print(type(3))  # int
+print(type(3.5))  # float
+print(type("Hola"))  # str
+print(type(True))  # bool
+print(type(False))  # bool
+print(type([1, 2, 3, 4]))  # list
+print(type((1, 2, 3, 4)))  # tuple
+print(type({"nombre": "Juan", "apellido": "Perez"}))  # dict
+print(type(None))  # NoneType
+print(type(3j))  # complex
+
+
+print("Mi perro 'Toby'") # Mi perro 'Toby'
+print('Mi perro "Toby"') # Mi perro "Toby"
+
+
+print("UN STRING" + " " + "OTRO STRING")
+
+#var3 = 3 + "5"   # TypeError
+
+codo_a_codo = "Codo a codo"
+
+print("C" in codo_a_codo) # True
+print("c" in codo_a_codo)
+print("c" not in codo_a_codo)
